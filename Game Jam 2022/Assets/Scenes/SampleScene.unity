@@ -1174,7 +1174,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 6fe4d0d93a52c8e4fb7fd2ba1888847b, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 965a4829a34152948aceb0abd137b0ff, type: 2}
+      objectReference: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fe4d0d93a52c8e4fb7fd2ba1888847b, type: 3}
 --- !u!1001 &622199494
@@ -3901,7 +3901,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &2098598196
 MeshCollider:
@@ -5300,7 +5300,7 @@ GameObject:
   - component: {fileID: 135756641305948160}
   - component: {fileID: 4416926083105303664}
   - component: {fileID: 1952595547}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Personaje
   m_TagString: Player
   m_Icon: {fileID: 0}
