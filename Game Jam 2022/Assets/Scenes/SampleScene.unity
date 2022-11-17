@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &820810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -266,6 +267,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4334248379434994, guid: a114301c17a8f9d4e87a828e20f894a2, type: 3}
   m_PrefabInstance: {fileID: 37320801}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of ee1fd1a (Police Attack)
 --- !u!1 &49209862 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 110776, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
@@ -1429,6 +1432,7 @@ CapsuleCollider:
   m_Height: 1.66
   m_Direction: 1
   m_Center: {x: 0, y: 0.84, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &665505588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1502,6 +1506,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63ff2386a1262d64f99de6e3e1183874, type: 3}
+=======
+>>>>>>> parent of ee1fd1a (Police Attack)
 --- !u!1001 &690717192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2576,6 +2582,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1001 &1306764407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2670,6 +2677,8 @@ CapsuleCollider:
   m_Height: 3.9174848
   m_Direction: 1
   m_Center: {x: 0.01223734, y: 1.9604464, z: 0.06051524}
+=======
+>>>>>>> parent of ee1fd1a (Police Attack)
 --- !u!1 &1393065735
 GameObject:
   m_ObjectHideFlags: 0
