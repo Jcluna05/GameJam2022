@@ -19,4 +19,15 @@ public class BarraVida : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void incrementarVida()
+    {
+        barra.value += 200;
+    }
+
+    public void reducirVida()
+    {
+        barra.value -= 3;
+    }
+
 }
