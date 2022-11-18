@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class BarraVida : MonoBehaviour
 {
     public Slider barra;
+    public int masVida;
+    public int menosVida;
     void Start()
     {
         
@@ -22,12 +24,12 @@ public class BarraVida : MonoBehaviour
 
     public void incrementarVida()
     {
-        barra.value += 200;
+        barra.value += masVida;
     }
 
     public void reducirVida()
     {
-        barra.value -= 3;
+        barra.value -= menosVida;
     }
 
 }
