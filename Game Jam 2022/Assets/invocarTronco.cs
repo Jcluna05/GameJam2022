@@ -11,7 +11,7 @@ public class obstaculoT : MonoBehaviour
     public void Start()
     {   
         
-        InvokeRepeating("tronc",30,tRep);
+        InvokeRepeating("tronc",4,tRep);
     }
 
     // Update is called once per frame
