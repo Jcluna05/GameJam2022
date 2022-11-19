@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - agua
   - policia
+  - luz
   layers:
   - Default
   - TransparentFX
