@@ -37,5 +37,9 @@ public class BarraVida : MonoBehaviour
     {
         barra.value -= golpe;
     }
+    public void golpeLuz()
+    {
+        barra.value -= 2;
+    }
 
 }
