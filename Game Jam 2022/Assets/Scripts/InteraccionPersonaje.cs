@@ -33,6 +33,9 @@ public class InteraccionPersonaje : MonoBehaviour
         {
             barra.incrementarVida();
             Destroy(coll.gameObject);
+        } else if (coll.CompareTag("policia"))
+        {
+            barra.golpePolicia();
         }
     }
 }

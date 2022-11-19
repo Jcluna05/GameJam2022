@@ -8,6 +8,7 @@ public class BarraVida : MonoBehaviour
     public Slider barra;
     public int masVida;
     public int menosVida;
+    public int golpe;
     void Start()
     {
         
@@ -30,6 +31,11 @@ public class BarraVida : MonoBehaviour
     public void reducirVida()
     {
         barra.value -= menosVida;
+    }
+
+    public void golpePolicia()
+    {
+        barra.value -= golpe;
     }
 
 }
