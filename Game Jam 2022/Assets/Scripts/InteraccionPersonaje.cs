@@ -38,4 +38,12 @@ public class InteraccionPersonaje : MonoBehaviour
             barra.golpePolicia();
         }
     }
+    private void OnTriggerStay(Collider coll) // Colocar etiqueta agua a los game objects que hagan que suba de vida
+    {
+        
+        if (coll.CompareTag("luz"))
+        {
+            barra.golpeLuz();
+        }
+    }
 }
