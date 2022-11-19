@@ -9,7 +9,7 @@ public class faroGira : MonoBehaviour
     {
         if (noche.GetFloat("_Cutoff") < .7f)
         {
-            transform.Rotate(0, 0, 6 * Time.deltaTime);
+            transform.Rotate(0, 0, 25 * Time.deltaTime);
         }
         
     }
