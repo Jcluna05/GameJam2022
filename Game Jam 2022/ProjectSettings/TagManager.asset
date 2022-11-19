@@ -8,6 +8,7 @@ TagManager:
   - agua
   - policia
   - luz
+  - tronco
   layers:
   - Default
   - TransparentFX
