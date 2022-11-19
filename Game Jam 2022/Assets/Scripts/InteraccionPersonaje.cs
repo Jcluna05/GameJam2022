@@ -11,7 +11,6 @@ public class InteraccionPersonaje : MonoBehaviour
         referencia = gameObject.GetComponent<Transform>().position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         posicion = gameObject.GetComponent<Transform>().position;
@@ -33,9 +32,6 @@ public class InteraccionPersonaje : MonoBehaviour
         {
             barra.incrementarVida();
             Destroy(coll.gameObject);
-        } else if (coll.CompareTag("policia"))
-        {
-            barra.golpePolicia();
         }
     }
 }
