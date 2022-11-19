@@ -14,6 +14,7 @@ public class PoliceStatementsTree : MonoBehaviour
     private Quaternion angulo;
     public int walkrut;
     private float grado;
+    public AudioSource audio;
 
     private Sight _sight;
     //public Transform playerTransform;
@@ -102,6 +103,8 @@ public class PoliceStatementsTree : MonoBehaviour
     }
     public void ChasePlayer()
     {
+
+        audio.Play();
         animator.SetBool("onAttack", false);
 
         animator.SetFloat("Velocity", 1f);
@@ -124,7 +127,6 @@ public class PoliceStatementsTree : MonoBehaviour
     }
     void AttackPlayer()
     {
-
         animator.SetFloat("Velocity", 0f);
         animator.SetBool("onAttack", true);
         agent.isStopped = true;
