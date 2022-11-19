@@ -2953,6 +2953,7 @@ MonoBehaviour:
   barra: {fileID: 334769311}
   masVida: 200
   menosVida: 1
+  golpe: 20
 --- !u!1 &338245560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8960014844449585853, guid: 07b69e264410fe54c8640fb346c86ece, type: 3}
@@ -5124,7 +5125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6fe4d0d93a52c8e4fb7fd2ba1888847b, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: policia
       objectReference: {fileID: 0}
     - target: {fileID: 1018663916576474580, guid: 6fe4d0d93a52c8e4fb7fd2ba1888847b, type: 3}
       propertyPath: m_Layer
@@ -12422,7 +12423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447dbe4ba0a893344a2129bc1c0b3968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 7.43
+  distance: 30
   angle: 57.48
   targetLayers:
     serializedVersion: 2
