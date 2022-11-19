@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BarraVida : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class BarraVida : MonoBehaviour
     {
         if (barra.value <= 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(3);
         }
     }
 
