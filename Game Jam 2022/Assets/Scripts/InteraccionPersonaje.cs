@@ -36,6 +36,9 @@ public class InteraccionPersonaje : MonoBehaviour
         } else if (coll.CompareTag("policia"))
         {
             barra.golpePolicia();
+        } else if (coll.CompareTag("cactus"))
+        {
+            barra.golpeCaptus();
         }
     }
     private void OnTriggerStay(Collider coll) // Colocar etiqueta agua a los game objects que hagan que suba de vida
@@ -44,6 +47,18 @@ public class InteraccionPersonaje : MonoBehaviour
         if (coll.CompareTag("luz"))
         {
             barra.golpeLuz();
+        }else if (coll.CompareTag("cactus"))
+        {
+            barra.golpeCaptus();
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("cactus"))
+        {
+            Debug.Log("Se ejecuto el choque ");
+            barra.golpeCaptus();
         }
     }
 }

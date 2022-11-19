@@ -9,6 +9,7 @@ TagManager:
   - policia
   - luz
   - tronco
+  - cactus
   layers:
   - Default
   - TransparentFX

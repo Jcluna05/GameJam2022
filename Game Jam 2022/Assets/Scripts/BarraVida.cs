@@ -42,4 +42,10 @@ public class BarraVida : MonoBehaviour
         barra.value -= 2;
     }
 
+    public void golpeCaptus()
+    {
+        Debug.Log("Se bajo vida cactus");
+        barra.value -= 10;
+    }
+
 }
