@@ -60,7 +60,7 @@ Material:
     - _Amount: 1
     - _Amplitude: 0
     - _BumpScale: 1
-    - _Cutoff: 1.0023619
+    - _Cutoff: 0.7851923
     - _CutoutThresh: 0.617
     - _DetailNormalMapScale: 1
     - _Distance: 0
