@@ -14,7 +14,7 @@ public class Distancia : MonoBehaviour
     
     void Start()
     {
-        aviso.text = "Remaining Distance: Calculating...";
+        aviso.text = "Distancia Restante: Calculando...";
     }
 
     
@@ -26,6 +26,6 @@ public class Distancia : MonoBehaviour
         distancia = Mathf.Sqrt(Mathf.Pow((checkpoint.transform.position.y - personaje.transform.position.y),2)
             + Mathf.Pow(diagonalhorizontal,2));
 
-        aviso.text = "Remaining Distance: " + distancia.ToString("F1") + " mtrs";
+        aviso.text = "Distancia Restante: " + distancia.ToString("F2") + " mtrs";
     }
 }
