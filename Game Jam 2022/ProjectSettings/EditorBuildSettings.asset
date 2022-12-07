@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinJuego.unity
     guid: d7566adcf4c34e44b99427f6dceb092a
+  - enabled: 1
+    path: Assets/Scenes/Instructivo.unity
+    guid: cf0d48d577c1e944ca91776f61481a59
   m_configObjects: {}
