@@ -240,10 +240,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagenes:
-  - {fileID: 21300000, guid: 6f2f23ac7034d9c4793f5673d8c2bd4a, type: 3}
-  - {fileID: 21300000, guid: 039b8651f154b8d42a94655d3ce4d562, type: 3}
-  - {fileID: 21300000, guid: 614e7217510086343b8c6117a177d5d7, type: 3}
-  - {fileID: 21300000, guid: bfede99efeb5e1f4890ee7c8d7a829e6, type: 3}
+  - {fileID: 21300000, guid: 5bdb010f2d90838459fdf0388bfc02f7, type: 3}
+  - {fileID: 21300000, guid: c21cb0eac7d4f8749938f7ddb9faed54, type: 3}
+  - {fileID: 21300000, guid: 96b9ec9c8bae45644859c838c670da87, type: 3}
+  - {fileID: 21300000, guid: 19b979f6267ba424f8a1a210d7300078, type: 3}
   regreso: {fileID: 1861619491}
   siguiente: {fileID: 1336347116}
   imagen: {fileID: 2065333963}
@@ -1281,7 +1281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6f2f23ac7034d9c4793f5673d8c2bd4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5bdb010f2d90838459fdf0388bfc02f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
