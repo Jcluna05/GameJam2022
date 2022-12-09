@@ -20,7 +20,7 @@ public class BarraVida : MonoBehaviour
     {
         if (barra.value <= 0)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(2);
         }
     }
 

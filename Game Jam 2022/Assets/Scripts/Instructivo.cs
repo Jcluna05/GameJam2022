@@ -25,7 +25,7 @@ public class Instructivo : MonoBehaviour
     {
         if(imagenAactual == 3)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
         }else if(imagenAactual == 0)
         {
             regreso.SetActive(true);
@@ -46,6 +46,6 @@ public class Instructivo : MonoBehaviour
 
     public void saltarInstructivo()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
